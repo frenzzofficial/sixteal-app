@@ -18,12 +18,12 @@ const defaultOrigin = vercelHost
  */
 const publicEnvSchema = z.object({
 	// App identity — safe to surface on /health, /status, or docs
-	APP_NAME: z.string().default("CLOAK SHIELD"),
+	APP_NAME: z.string().default("Six Teal App"),
 	APP_VERSION: z.string().default("1.0.0"),
 	APP_DESCRIPTION: z
 		.string()
 		.default(
-			"A lightweight, scalable authentication service featuring Elysia, Drizzle ORM, PostgreSQL, and TypeScript",
+			"Six Teal Store is a modern e-commerce platform that offers a wide range of products and services to customers worldwide. Our mission is to provide a seamless shopping experience with high-quality products, competitive prices, and exceptional customer service.",
 		),
 
 	DEFAULT_LOCALE: z.string().default("en"),

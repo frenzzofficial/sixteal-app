@@ -21,7 +21,7 @@ export const registerApiRoutes = (app: Elysia): void => {
 			({ status }) =>
 				status(200, {
 					version: appConfig.app.apiVersion,
-					message: "Cloak Shield API",
+					message: "Six Teal App",
 				}),
 			{
 				detail: {

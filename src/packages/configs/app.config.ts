@@ -26,7 +26,7 @@ export const appConfig = {
 		name: envPublicConfig.APP_NAME,
 		description: envPublicConfig.APP_DESCRIPTION,
 		url: envPublicConfig.SITE_ORIGIN,
-		message: "Welcome to Cloak Shield",
+		message: "Welcome to six Teal App",
 		documentation: envPublicConfig.SITE_DOCUMENTATION,
 		api: envPublicConfig.SITE_API,
 	},
